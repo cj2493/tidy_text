@@ -1,0 +1,17 @@
+---
+title: "tidy_text"
+author: "Courtney Johnson"
+date: "November 29, 2018"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(tidytext)
+```
+
